@@ -1,0 +1,55 @@
+.map-container-3 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-3 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1022px) {
+  h2.font-time {
+    font-size: 6vw;
+  }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+  div.mobile{
+    display: none !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 370px) {
+  h2.font-time {
+    font-size: 3rem;
+  }
+
+
+}
+
+/* @media only screen and (max-width: 766px) {
+  h2.font-time {
+    font-size: 100%;
+  }
+
+
+} */
+
+h2.font-time {
+  font-size: 30px;
+}
+
+
+.magin-l {
+  margin-left: 2px;
+}

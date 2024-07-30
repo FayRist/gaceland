@@ -1,0 +1,18 @@
+
+
+@media only screen and (max-width: 992px) {
+
+    div.footer-menu-com {
+      display: none;
+    }
+  
+  }
+
+  @media only screen and (min-width: 991.98px) {
+
+    div.footer-menu-mobile {
+      display: none;
+    }
+    
+  }
+  

@@ -1,0 +1,360 @@
+<body class="stretched block-form-2">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap py-0">
+
+				<div class="row align-items-stretch justify-content-between g-0">
+
+					<div class="col-lg-4 col-md-5 overflow-hidden min-vh-50"
+						style="background-color: var(--themecolor);">
+						<div
+							class="dark h-100 min-vh-md-100 d-flex flex-column justify-content-center z-1 position-relative p-5">
+							<h1 class="fw-bold">Personal Details</h1>
+							<p class=" text-white-50 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing, elit.</p>
+
+							<div>
+								<a href="#" class="social-icon si-rounded si-borderless si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="#" class="social-icon si-rounded si-borderless si-twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+								<a href="#" class="social-icon si-rounded si-borderless si-pinterest">
+									<i class="icon-pinterest"></i>
+									<i class="icon-pinterest"></i>
+								</a>
+								<a href="#" class="social-icon si-rounded si-borderless si-gplus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+								<a href="#" class="social-icon si-rounded si-borderless si-rss">
+									<i class="icon-rss"></i>
+									<i class="icon-rss"></i>
+								</a>
+							</div>
+						</div>
+
+						<img src="./assets/img/icon/online-booking/form-2.svg" alt="SVG" class="svg-image">
+					</div>
+
+					<div class="col-lg-8 col-md-7 p-5 p-lg-6">
+
+
+
+						<div class="form-widget" data-alert-type="inline">
+							<div class="form-result"></div>
+							<form id="step-form" class="mb-0" action="include/form.php" method="post"
+								enctype="multipart/form-data">
+								<!-- <div class="form-process"></div> -->
+
+								<!-- <div id="tab-reservation" class="nav nav-pills flex-column flex-lg-row" role="tablist">
+									<a class="nav-link active ms-0" data-bs-toggle="list"
+										href="#tab-reservation-details" role="tab">1. Your Details</a>
+									<a class="nav-link  ms-0 mt-2 mt-lg-0 ms-lg-3" data-bs-toggle="list"
+										href="#tab-reservation-select-address" role="tab">2. Your Address</a>
+									<a class="nav-link ms-0 mt-2 mt-lg-0 ms-lg-3" data-bs-toggle="list"
+										href="#tab-reservation-msg" role="tab">3. Your Message</a>
+								</div> -->
+
+								<!-- <div class="line line-sm"></div> -->
+
+								<div class="tab-content mt-5" id="nav-tabContent">
+									<div class="" id="tab-reservation-details" role="tabpanel"
+										aria-labelledby="tab-reservation-details" *ngIf="currentstep === 1">
+										<span class="op-05 text-smaller ls1">STEP - 1/3</span>
+										<h2 class="mb-5 text-uppercase ls1 fw-bold">Select Your Type</h2>
+										<div class="row">
+											<div class="col-md-6 col-lg-4">
+												<div class="card">
+													<img data-src="https://firebasestorage.googleapis.com/v0/b/rabbit-official.appspot.com/o/graceland%2Ftype-a%2Ftitle-img-typeA.webp?alt=media&token=e1adc955-879b-47ff-a9db-05ac19a22f0f"
+														width="100%" height="550" alt="Placeholder Image"
+														class="rounded lazyload">
+													<div class="card-body">
+														<p class="h3 card-text">TYPE A</p>
+														<p class="card-text">
+															บ้าน 2 ชั้น ขนาด 302 ตารางเมตร บนที่ดิน 80 ตารางวา ที่จอดรถ
+															3 คัน จำนวน 5 ห้องนอน 4 ห้องน้ำ
+														</p>
+														<ul class="portfolio-meta bottommargin">
+															<li><span><i class="icon-bed"></i> bedroom</span>5</li>
+															<li><span><i class="icon-bath"></i> master bathroom</span>1
+															</li>
+															<li><span><i class="icon-shower"></i> bathroom</span>3</li>
+															<li><span><i class="icon-expand"></i> area</span>302 sq.m.
+															</li>
+															<li><span><i class="icon-warehouse"></i> parking</span>3
+															</li>
+															<li><span><i class="icon-comments-dollar"></i> Price
+																	starts</span>6.3 Million</li>
+														</ul>
+
+														<a class="btn btn-primary" (click)="clickStep(2,'A')">Select
+															Type</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-lg-4">
+												<div class="card">
+													<img data-src="https://firebasestorage.googleapis.com/v0/b/rabbit-official.appspot.com/o/graceland%2Ftype-b%2Ftitle-img-typeB.jpeg?alt=media&token=d8bbbce0-633c-41fd-b628-a5b8192ca24f"
+														width="100%" height="550" alt="Placeholder Image"
+														class="rounded lazyload">
+													<div class="card-body">
+														<p class="h3 card-text">TYPE B</p>
+														<p class="card-text">
+															บ้าน 2 ชั้น ขนาด 230 ตารางเมตร บนที่ดิน 65 ตารางวา ที่จอดรถ
+															2 คัน จำนวน 4 ห้องนอน 3 ห้องน้ำ
+														</p>
+														<ul class="portfolio-meta bottommargin">
+															<li><span><i class="icon-bed"></i> bedroom</span>4</li>
+															<li><span><i class="icon-shower"></i> bathroom</span>3</li>
+															<li><span><i class="icon-expand"></i> area</span>230 sq.m.
+															</li>
+															<li><span><i class="icon-warehouse"></i> parking</span>2
+															</li>
+															<li><span><i class="icon-comments-dollar"></i> Price
+																	starts</span>5.3 Million</li>
+														</ul>
+														<a class="btn btn-primary" (click)="clickStep(2,'B')">Select
+															Type</a>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6 col-lg-4">
+												<div class="card">
+													<img data-src="https://firebasestorage.googleapis.com/v0/b/rabbit-official.appspot.com/o/graceland%2Ftype-c%2Ftitle-img-typeC.webp?alt=media&token=27b7a171-2ef4-49bb-b475-de79745a39b1"
+														width="100%" height="550" alt="Placeholder Image"
+														class="rounded lazyload">
+													<div class="card-body">
+														<p class="h3 card-text">TYPE C</p>
+														<p class="card-text">
+															บ้าน 2 ชั้น ขนาด 201 ตารางเมตร บนที่ดิน 54 ตารางวา ที่จอดรถ
+															2 คัน จำนวน 3 ห้องนอน 3 ห้องน้ำ
+														</p>
+														<ul class="portfolio-meta bottommargin">
+															<li><span><i class="icon-bed"></i> bedroom</span>3</li>
+															<li><span><i class="icon-shower"></i> bathroom</span>2</li>
+															<li><span><i class="icon-toilet-paper-slash"></i>
+																	toilet</span>1</li>
+															<li><span><i class="icon-expand"></i> area</span>201 sq.m.
+															</li>
+															<li><span><i class="icon-warehouse"></i> parking</span>2
+															</li>
+															<li><span><i class="icon-comments-dollar"></i> Price
+																	starts</span>4.5 Million</li>
+														</ul>
+														<a class="btn btn-primary" (click)="clickStep(2,'C')">Select Type</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row" style="margin-top: 30px;">
+											<div class="col-md-6 col-lg-4">
+												<div class="card">
+													<img data-src="https://firebasestorage.googleapis.com/v0/b/rabbit-official.appspot.com/o/graceland%2Ftype-d%2Ftitle-img-typeD.jpeg?alt=media&token=2f0e6b1a-542f-4ad8-9654-0d62d9923f2c"
+														width="100%" height="550" alt="Placeholder Image"
+														class="rounded lazyload">
+													<div class="card-body">
+														<p class="h3 card-text">TYPE D</p>
+														<p class="card-text">
+															บ้านแฝดขนาด 164 ตารางเมตร บนที่ดิน 41 ตารางวา ที่จอดรถ 2 คัน
+															จำนวน 3 ห้องนอน 3 ห้องน้ำ
+														</p>
+														<ul class="portfolio-meta bottommargin">
+															<li><span><i class="icon-bed"></i> bedroom</span>3</li>
+															<li><span><i class="icon-shower"></i> bathroom</span>2</li>
+															<li><span><i class="icon-toilet-paper-slash"></i>
+																	toilet</span>1</li>
+															<li><span><i class="icon-expand"></i> area</span>164 sq.m.
+															</li>
+															<li><span><i class="icon-warehouse"></i> parking</span>2
+															</li>
+															<li><span><i class="icon-comments-dollar"></i> Price
+																	starts</span>3.5 Million</li>
+														</ul>
+														<a class="btn btn-primary" (click)="clickStep(2,'D')">Select
+															Type</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="" id="tab-reservation-select-address" role="tabpanel"
+										aria-labelledby="tab-reservation-select-address" *ngIf="currentstep === 2">
+										<span class="op-05 text-smaller ls1">STEP - 2/3</span>
+										<h2 class="mb-5 text-uppercase ls1 fw-bold">Your Details</h2>
+										<div class="row">
+											<div class="col-6 mb-4">
+												<label for="step-form-first-name">First Name:</label>
+												<input type="text" name="step-form-first-name" id="step-form-first-name"
+													class="form-control required" value="" placeholder="John">
+											</div>
+											<div class="col-6 mb-4">
+												<label for="step-form-last-name">Last Name:</label>
+												<input type="text" name="step-form-last-name" id="step-form-last-name"
+													class="form-control required" value="" placeholder="Doe">
+											</div>
+											<div class="col-6 mb-4">
+												<label for="step-form-email">Email Address:</label>
+												<input type="email" name="step-form-email" id="step-form-email"
+													class="form-control required" value=""
+													placeholder="johndoe@unknown.com">
+											</div>
+											<div class="col-6 mb-4">
+												<label for="step-form-phone">Phone:</label><br>
+												<input type="text" name="step-form-phone" id="step-form-phone"
+													class="form-control border-form-control required" value=""
+													placeholder="+66 11 222 333 44">
+											</div>
+											<div class="col-6 col-6 mb-4">
+												<label for="step-form-age">Date of Birth:</label>
+												<input type="text" value="" class="form-control required text-start"
+													id="step-form-age" name="step-form-age" placeholder="DD/MM/YYYY">
+											</div>
+											<div class="col-6 col-6 mb-5 ">
+												<label for="step-form-url">Bank Partner</label>
+												<div class="row">
+													<div class="col-12">
+														<form action="#" method="post" class="mb-0">
+															<div class="bottommargin-sm">
+																<select class="select-1 form-select"
+																	style="width:100%;">
+																	<optgroup label="Select Bank">
+																		<option value="BBL">ธนาคารกรุงเทพ</option>
+																		<option value="KTB">ธนาคารกรุงไทย</option>
+																		<option value="BAY">ธนาคารกรุงศรีอยุธยา</option>
+																		<option value="KBANK">ธนาคารกสิกร</option>
+																		<option value="KKP">ธนาคารเกียรตินาคินภัทร
+																		</option>
+																		<option value="TTB">ธนาคารทหารไทยธนชาต</option>
+																		<option value="SCB">ธนาคารไทยพาณิชย์</option>
+																		<option value="BAAC">
+																			ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร
+																		</option>
+																		<option value="UOB">ธนาคารยูโอบี</option>
+																		<option value="ISBT">ธนาคารอิสลามแห่งประเทศไทย
+																		</option>
+																		<option value="GSB">ธนาคารออมสิน</option>
+																		<option value="GHB">ธนาคารอาคารสงเคราะห์
+																		</option>
+																		<option value="LH">ธนาคารแลนด์แอนด์เฮ้าส์
+																		</option>
+																	</optgroup>
+																</select>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+											<div class="col-6 mb-4">
+												<label for="step-form-phone">Price:</label><br>
+												<input type="text" name="step-form-phone" id="step-form-phone"
+													class="form-control border-form-control required" value=""
+													placeholder="x ,xxx ,xxx.xx฿">
+											</div>
+
+											<div class="w-100 clear"></div>
+
+											<div class="col-12">
+
+												
+
+													<a class="btn px-5 py-3 tab-action-btn-next float-end text-white"
+													style="background-color: #3D1144;" (click)="clickStep(3,'')">Next
+													Step</a>
+
+													<a class="btn px-5 py-3 tab-action-btn-next float-end text-white"
+													style="background-color: #3D1144;margin-right: 25px;" (click)="clickStep(1,'')">back</a>
+
+
+												
+											</div>
+										</div>
+									</div>
+
+									<div class="" id="tab-reservation-msg" role="tabpanel"
+										aria-labelledby="tab-reservation-msg" *ngIf="currentstep === 3">
+										<span class="op-05 text-smaller ls1">STEP - 3/3</span>
+										<h2 class="mb-5 text-uppercase ls1 fw-bold">Your Message</h2>
+										<div class="row">
+											<div class="col-12 mb-5">
+												<label for="step-form-message">Your Message:</label>
+												<textarea class="required form-control" id="step-form-message"
+													name="step-form-message" rows="5"
+													placeholder="Write your message here..."></textarea>
+											</div>
+											<div class="col-12 d-none">
+												<input type="text" id="step-form-botcheck" name="step-form-botcheck"
+													value="" />
+											</div>
+											<div class="col-12">
+												<button type="submit" name="step-form-submit"
+													class="btn px-5 py-3 float-end text-white"
+													style="background-color: #3D1144;">Submit Now</button>
+											</div>
+
+											<input type="hidden" name="prefix" value="step-form-">
+										</div>
+									</div>
+
+								</div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- #content end -->
+
+
+	</div><!-- #wrapper end -->
+
+	<script>
+		jQuery(document).ready(function () {
+
+			$('.tab-action-btn-next').click(function (e) {
+				let elementTab = $(this).parents('.tab-pane');
+				$('#step-form').valid();
+				let errors = elementTab.find('.required.error').length;
+				if (errors > 0) {
+
+					$('#tab-reservation > .active').nextAll('a').addClass('disabled');
+					return false;
+				} else {
+					$('#tab-reservation > .active').next('a').removeClass('disabled').trigger('click');
+					let nextTabEl = $('#tab-reservation > .active').next('a').removeClass('disabled'),
+						tab = new bootstrap.Tab(nextTabEl.get(0));
+
+					tab.show();
+
+					e.preventDefault();
+					return false;
+				}
+			});
+
+			$('#step-form-age').flatpickr({
+				minDate: "today",
+				dateFormat: "d/m/Y",
+			});
+
+			$('#step-form').on('formSubmitSuccess', function () {
+				$(".tab-content .tab-pane:eq(2)").removeClass('active show');
+				$(".tab-content .tab-pane:eq(0)").addClass('active show');
+				$("#tab-reservation .nav-link:eq(2)").removeClass('active');
+				$("#tab-reservation .nav-link:eq(0)").addClass('active');
+			});
+
+		});
+	</script>
+
+</body>

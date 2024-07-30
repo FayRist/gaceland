@@ -1,0 +1,284 @@
+.block-expand-categories h1,
+.block-expand-categories h2,
+.block-expand-categories h3 { font-family: Playfair Display, serif !important; }
+
+
+p, span{
+    font-size: 20px;
+}
+
+.text-m, .text-m-t{
+    font-size: 24px;
+}
+
+p.text-m-p{
+    font-size: 20px;
+}
+
+.block-expand-categories .expand-category {
+    --height: 50vh;
+    --responsive-height: 60px;
+    --hover-flex: 10;
+
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px 0;
+    min-height: var(--responsive-height);
+    cursor: pointer;
+}
+
+.block-expand-categories .expand-category h4 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+.facilities-head-rp-en{
+    font-size: 65px; 
+    margin-bottom: 5%;
+    color: #d39e0a;
+}
+
+.facilities-head-rp-th{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: #d39e0a;
+}
+
+.facilities-comu-rp{
+    font-size: 64px; margin-bottom: 2%;color: #d39e0a;
+}
+
+
+/* Larger Device */
+@media (max-width: 992px) {
+    p, span, .text-m{
+        font-size: 3.2vw;
+    }
+
+    .text-m-t{
+        font-size: 1.2rem;
+    }
+
+    p.text-m-p{
+        font-size: 0.2rem;
+    }
+
+    .block-expand-categories .expand-category {
+        height: var(--height);
+        flex: 1;
+        margin: 0 10px;
+        transition: flex 1s ease;
+        -webkit-backface-visibility: hidden;
+        transform: translate3d(0,0,0);
+    }
+
+    .block-expand-categories:not(.on-click) .expand-category:hover,
+    .block-expand-categories.on-click .expand-category.active { flex: var(--hover-flex); }
+
+    .block-expand-categories .expand-category h4 {
+        opacity: 1;
+        top: auto;
+        bottom: 10px;
+        transform: none;
+        transition: opacity .4s ease;
+    }
+
+    .block-expand-categories:hover .expand-category:not(.active):not(:hover) h4,
+    .block-expand-categories.on-click .expand-category:not(.active) h4 { opacity: 0; }
+
+
+
+    
+}
+
+.container1 {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 50vh;
+}
+.box {
+    flex: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 6px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+    /* line-height: 0px; */
+    border-radius: 40px;
+}
+.box > img {
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.box > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+}
+.box:hover {
+    flex: 1 1 50%;
+}
+.box:hover > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .responsive-img{
+        display: none
+    }
+
+    .facilities-head-rp-en{
+        font-size: 65px; 
+        margin-bottom: 5%;
+        color: #d39e0a;
+    }
+    
+    .facilities-head-rp-th{
+        font-size: 1.75rem;
+        margin-bottom: 5%;
+        color: #d39e0a;
+    }
+
+    .facilities-comu-rp{
+        font-size: 1.75rem; margin-bottom: 2%;color: #d39e0a;
+    }
+
+    p, span, .text-m{
+        font-size: 3.2vw;
+    }
+    .text-m-t{
+        font-size: 1.2rem;
+    }
+
+
+    p.text-m-p{
+        font-size: 0.2rem;
+    }
+
+
+}
+
+div.h1 {
+    
+    color: #8D7249;
+}
+
+.entry-meta i {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    color: #d49f43;
+}
+
+h1 {
+    color: #8d7350;
+}
+
+h2 {
+    color: #8d7350;
+}
+
+h3 {
+    color: #8d7350;
+}
+
+label {
+    color: #d49f43;
+}
+
+li {
+    color: #d49f43;
+}
+
+a {
+    color: #d49f43;
+}
+
+span {
+    color: #d49f43;
+}
+
+i {
+    color: #d49f43;
+}
+
+
+.nav.nav-pills{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 415px) {
+
+
+    .pc{
+        display: none !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 414.99px) {
+
+
+    .m{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    div.img-responsive{
+        display: none !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 799.98px) {
+
+    div.img-mobile{
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    div.icon-responsive{
+        display: none !important;
+    }
+
+    .facilities-head-rp-th{
+        font-size: 1.75rem;
+        margin-bottom: 5%;
+        color: #d39e0a;
+    }
+
+}
+
+
+@media only screen and (min-width: 575.98px) {
+
+    div.icon-res-mobile{
+        display: none !important;
+    }
+
+}

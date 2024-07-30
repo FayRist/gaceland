@@ -1,0 +1,610 @@
+<!-- Start Type & Plan -->
+<div class="responsive-pc">
+    <div class="content-wrap" style="background-color: #fffdf8; ">
+        <div class="container clearfix">
+
+            <div class="fslider" data-arrows="false" data-pagi="false" data-animation="fade" data-hover="false">
+                <div class="flexslider">
+                </div>
+            </div>
+
+            <!-- S type C -->
+            <div class="row gutter-50 align-items-center">
+                <div data-animate="fadeIn" data-delay="100" class="col-lg-6">
+                    <img data-src="./assets/images/home/type-plan/pc/type-C.png"
+                        width="100%" height="550" alt="Placeholder Image" class="rounded lazyload">
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-box fbox-effect flex-column mb-5">
+                        <div class="fbox-content">
+                            <p class="h3">
+                                Type C
+                            </p>
+                            <div class="col-lg-12 row">
+                                <div class="col-lg-9">
+                                    <p class="h1" style="font-size: 40px;">
+                                        FAMILY DELIGHT
+                                    </p>
+                                </div>
+                                <div class="col-lg-3 pt-2">
+                                    <a href="../../view360/graceland_type_c">
+                                        <button type="button" class="btn btn-outline-warning"
+                                            style="border-radius: 20px; height: 40px; width: 150px;font-size: 16px;"><i
+                                                class="icon-street-view" style="margin-right: 5px;"></i> 360°</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="feature-box fbox-effect flex-column mb-5">
+                                <ng-image-slider #nav [images]="imageObjectTypeC" [infinite]="false" [autoSlide]="1"
+                                    [animationSpeed]="0.5" [imageSize]="{width: '35%', height: 150}" slideImage="1">
+                                </ng-image-slider>
+                            </div>
+                            <div class="row col-mb-12 pt-3 mb-3">
+                                <div class="col-sm-4 col-lg-4 text-center mb-3">
+                                    <img alt="image"
+                                        data-src="./assets/images/type-plan/measure-s.png"
+                                        alt="area" class="lazyload mb-3" style="width: 100px;">
+                                    <p class="h4">{{ 'TypeC.sq.m.' | translate }}</p>
+                                </div>
+                                <div class="col-sm-4 col-lg-4 text-center mb-3">
+                                    <img alt="image"
+                                        data-src="./assets/images/type-plan/double-bed-s.png"
+                                        alt="bed" class="lazyload mb-3" style="width: 100px;">
+                                    <p class="h4">{{ 'TypeC.bedrooms' | translate }}</p>
+                                </div>
+                                <div class="col-sm-4 col-lg-4 text-center mb-3">
+                                    <img alt="image"
+                                        data-src="./assets/images/type-plan/parking-s.png"
+                                        alt="parking" class="lazyload mb-3" style="width: 100px;">
+                                    <p class="h4">{{ 'TypeC.parking' | translate }}</p>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="h5">
+                                {{ 'TypeC.detail1PC' | translate }}
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div data-animate="fadeIn" data-delay="100" class="row">
+                <div class="col-lg-5 offset-lg-1 text-center">
+                    <img data-src="./assets/images/type-plan/c/c-f1.png"
+                        width="100%" alt="planC1" class="lazyload">
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img data-src="./assets/images/type-plan/c/c-f2.png"
+                        width="100%" alt="planC2" class="lazyload">
+                </div>
+            </div>
+            <br>
+
+            <div class="row col-mb-12 pt-3 mb-3">
+                <div class="col-sm-3 col-lg-3 offset-sm-2 offset-lg-2 text-center mb-5">
+                    <img data-src="./assets/images/type-plan/a/icon-bathroom.png"
+                    style="width: 300px;" alt="bathroomC" class="lazyload" alt="image">
+                    <br><br>
+                    <p class="h4">
+                        {{ 'TypeC.Bathroom' | translate }}
+                    </p>
+                </div>
+                <div class="col-sm-3 col-lg-3 offset-sm-2 offset-lg-2 text-center mb-3">
+                    <img data-src="./assets/images/type-plan/c/icon-toilet.png"
+                        style="width: 300px;" alt="ToiletC" class="lazyload" alt="image">
+                    <br><br>
+                    <p class="h4">
+                        {{ 'TypeC.Toilet' | translate }}
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <hr>
+            <div  class="row">
+                <div class="col-lg-12 pt-3 mb-5">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation" style="margin-left: 20px;">
+                            <button class="btn btn-outline-warning active mb-3" id="typeC-video-tab"
+                                data-bs-toggle="pill" data-bs-target="#typeC-video" type="button"
+                                role="tab" aria-controls="typeC-video" aria-selected="true"
+                                style="width: 300px;height: 50px; border-radius:20px ;">
+                                <i class="icon-play-circle"></i>
+                                VIDEO
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation" style="margin-left: 20px;">
+                            <button class="btn btn-outline-warning" id="typeC-360-tab"
+                                data-bs-toggle="pill" data-bs-target="#typeC-360" type="button"
+                                role="tab" aria-controls="typeC-360" aria-selected="false"
+                                style="width: 300px;height: 50px; border-radius:20px ;">
+                                <i class="icon-street-view"></i>
+                                {{ '360View' | translate }}
+                            </button>
+                        </li>
+                    </ul>
+                    <div data-animate="fadeIn" data-delay="100" class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="typeC-video" role="tabpanel"
+                            aria-labelledby="typeC-video-tab">
+                            <!-- Entry Image
+                                ============================================ -->
+                            <div class="entry-image align-wide-xl my-3">
+                                <iframe height="550" src="https://www.youtube.com/embed/GTNS8zxnvsM"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <!-- .entry-image end -->
+                        </div>
+                        <div class="tab-pane fade" id="typeC-360" role="tabpanel"
+                            aria-labelledby="typeC-360-tab">
+                            <!-- Entry Image
+                                ============================================ -->
+                            <div class="entry-image align-wide-xl my-3">
+                                <iframe height="550" src="https://graceland360vrc.firebaseapp.com/" title="description"></iframe>
+                            </div>
+                            <!-- .entry-image end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- E type C -->
+
+            <div class="clear"></div>
+
+
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="section dark m-0">
+        <div class="mx-auto center bar-title">
+            <h2 class="mb-0 fw-light ls1 text-bar">
+                Map Location Graceland
+            </h2>
+        </div>
+    </div>
+    <div data-animate="fadeIn" data-delay="100" class="row">
+        <div class="col-12">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="1080" height="575" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Graceland%20Family%20Residences&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <a href="https://putlocker-is.org"></a><br>
+
+                    <a href="https://www.embedgooglemap.net">embed custom google map</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="section dark m-0">
+        <div class="mx-auto center bar-title" >
+            <h2 class="mb-0 fw-light ls1 text-bar">
+                PLAN VIEW GRACELAND
+            </h2>
+        </div>
+    </div>
+    <div data-animate="fadeIn" data-delay="100" class="row">
+        <div class="col-12">
+            <img data-src="./assets/images/home/plan-graceland/master-plan-view.png" alt="plan graceland" width="100%" class="lazyload">
+        </div>
+    </div>
+<!-- END Type & Plan -->
+</div>
+
+<div class="responsive-m-pad">
+    <!-- Start Type & Plan -->
+    <div class="content-wrap" style="background-color: #fffdf8;">
+        <div class="container clearfix">
+            <!-- S type C -->
+            <div class="row  align-items-center">
+                <p class="h3">
+                    Type C
+                </p>
+                <p class="h1">
+                    FAMILY DELIGHT
+                </p>
+                <div class="container text-center mb-3">
+                    <a href="../../view360/graceland_type_c">
+                        <button type="button" class="btn btn-outline-warning"
+                            style="border-radius: 20px; height: 50px; width: 150px;font-size: 24px;"><i
+                                class="icon-street-view" style="margin-right: 5px;"></i> 360°</button>
+                    </a>
+                </div>
+                <hr>
+                <div data-animate="fadeIn" data-delay="100" class="col-lg-6">
+                    <img data-src="./assets/images/home/type-plan/pc/type-C.png"
+                        width="100%" alt="Placeholder Image" class="rounded lazyload responsive-img-pc">
+                    <img data-src="./assets/images/home/type-plan/mobile/type-C1.png"
+                        width="100%" alt="Placeholder Image" class="rounded lazyload responsive-img-m">
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-box fbox-effect flex-column mb-5 mt-5">
+                        <div class="fbox-content">
+                            <div class="row col-mb-12 pt-3 mb-3">
+                                <div class="col-sm-4 col-lg-4 text-center mb-3">
+                                    <img alt="image"
+                                        data-src="./assets/images/type-plan/measure-s.png"
+                                        alt="area" class="lazyload mb-3" style="width: 100px;">
+                                    <p class="h4">{{ 'TypeC.sq.m.' | translate }}</p>
+                                </div>
+                                <div class="col-sm-4 col-lg-4 text-center mb-3">
+                                    <img alt="image"
+                                        data-src="./assets/images/type-plan/double-bed-s.png"
+                                        alt="bed" class="lazyload mb-3" style="width: 100px;">
+                                    <p class="h4">{{ 'TypeC.bedrooms' | translate }}</p>
+                                </div>
+                                <div class="col-sm-4 col-lg-4 text-center mb-3">
+                                    <img alt="image"
+                                        data-src="./assets/images/type-plan/parking-s.png"
+                                        alt="parking" class="lazyload mb-3" style="width: 100px;">
+                                    <p class="h4">{{ 'TypeC.parking' | translate }}</p>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="h5">
+                                {{ 'TypeC.detail1PC' | translate }}
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="feature-box fbox-effect flex-column mb-5 mt-5">
+                    <ng-image-slider #nav [images]="imageObjectTypeC" [infinite]="false" [autoSlide]="1"
+                        [animationSpeed]="0.5" [imageSize]="{width: '35%', height: 150}" slideImage="1">
+                    </ng-image-slider>
+                </div>
+            </div>
+            <div data-animate="fadeIn" data-delay="100" class="row">
+                <div class="col-lg-12 text-center">
+                    <img data-src="./assets/images/type-plan/c/c-f1.png"
+                        alt="planC1" class="lazyload responsive-img">
+
+                    <img data-src="./assets/images/type-plan/c/c-f2.png"
+                        alt="planC2" class="lazyload responsive-img">
+                </div>
+            </div>
+            <br>
+
+            <div class="row col-mb-12 ">
+                <div class="col-sm-3 col-lg-3 offset-sm-2 offset-lg-2 text-center mb-5">
+                    <img data-src="./assets/images/type-plan/a/icon-bathroom.png"
+                        style="width: 300px;" alt="bathroomC" class="lazyload">
+                    <br><br>
+                    <p class="h4">
+                        {{ 'TypeC.Bathroom' | translate }}
+                    </p>
+                </div>
+                <div class="col-sm-3 col-lg-3 offset-sm-2 offset-lg-2 text-center mb-3">
+                    <img data-src="./assets/images/type-plan/c/icon-toilet.png"
+                        style="width: 300px;" alt="toiletA" class="lazyload">
+                    <br><br>
+                    <p class="h4">
+                        {{ 'TypeC.Toilet' | translate }}
+                    </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 pt-3 mb-5">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation" style="margin-left: 20px;">
+                            <button class="btn btn-outline-warning active mb-3" id="typeC-video-pad-tab"
+                                data-bs-toggle="pill" data-bs-target="#typeC-video-pad" type="button"
+                                role="tab" aria-controls="typeC-video-pad" aria-selected="true"
+                                style="width: 300px;height: 50px; border-radius:20px ;">
+                                <i class="icon-play-circle"></i>
+                                VIDEO
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation" style="margin-left: 20px;">
+                            <button class="btn btn-outline-warning" id="typeC-360-pad-tab"
+                                data-bs-toggle="pill" data-bs-target="#typeC-360-pad" type="button"
+                                role="tab" aria-controls="typeC-360-pad" aria-selected="false"
+                                style="width: 300px;height: 50px; border-radius:20px ;">
+                                <i class="icon-street-view"></i>
+                                {{ '360View' | translate }}
+                            </button>
+                        </li>
+                    </ul>
+                    <div data-animate="fadeIn" data-delay="100" class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="typeC-video-pad" role="tabpanel"
+                            aria-labelledby="typeC-video-pad-tab">
+                            <!-- Entry Image
+                                ============================================ -->
+                            <div class="entry-image align-wide-xl my-3">
+                                <iframe height="550" src="https://www.youtube.com/embed/GTNS8zxnvsM"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <!-- .entry-image end -->
+                        </div>
+                        <div class="tab-pane fade" id="typeC-360-pad" role="tabpanel"
+                            aria-labelledby="typeC-360-pad-tab">
+                            <!-- Entry Image
+                                ============================================ -->
+                            <div class="entry-image align-wide-xl my-3">
+                                <iframe height="550" src="https://graceland360vrc.firebaseapp.com/" title="description"></iframe>
+                            </div>
+                            <!-- .entry-image end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- E type C -->
+            <div class="clear"></div>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="section dark m-0">
+        <div class="mx-auto center bar-title">
+            <h2 class="mb-0 fw-light ls1 text-bar">
+                Map Location Graceland
+            </h2>
+        </div>
+    </div>
+    <div data-animate="fadeIn" data-delay="100" class="row">
+        <div class="col-12">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="1080" height="575" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Graceland%20Family%20Residences&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <a href="https://putlocker-is.org"></a><br>
+
+                    <a href="https://www.embedgooglemap.net">embed custom google map</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="section dark m-0">
+        <div class="mx-auto center bar-title" >
+            <h2 class="mb-0 fw-light ls1 text-bar">
+                PLAN VIEW GRACELAND
+            </h2>
+        </div>
+    </div>
+    <div data-animate="fadeIn" data-delay="100" class="row">
+        <div class="col-12">
+            <img data-src="./assets/images/home/plan-graceland/master-plan-view.png" alt="plan graceland" width="100%" class="lazyload">
+        </div>
+    </div>
+    <!-- END Type & Plan -->
+</div>
+
+<div class="responsive-m-phone">
+    <div class="container" style="background-color: #fffdf8; white-space: pre-line">
+    <!-- Start Type & Plan -->
+
+    <div class="content-wrap1" >
+        <div class="container clearfix">
+            <!-- S type C -->
+            <div class="row  align-items-center mt-5">
+                <p class="h3">
+                    Type C
+                </p>
+                <p class="h1">
+                    FAMILY DELIGHT
+                </p>
+                <div class="container text-center mb-3">
+                    <a href="../../view360/graceland_type_c">
+                        <button type="button" class="btn btn-outline-warning"
+                            style="border-radius: 20px; height: 30px; width: 100px;font-size: 12px;"><i
+                                class="icon-street-view" style="margin-right: 5px;"></i> 360°</button>
+                    </a>
+                </div>
+                <hr>
+                <div data-animate="fadeIn" data-delay="100" class="col-lg-6">
+
+                    <img data-src="./assets/images/home/type-plan/pc/type-B.png"
+                        width="100%" alt="Placeholder Image" class="rounded lazyload responsive-img-pc">
+                    <img data-src="./assets/images/home/type-plan/mobile/1type-B1.png"
+                        width="100%" alt="Placeholder Image" class="rounded lazyload responsive-img-m">
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-box fbox-effect flex-column mb-5 mt-5">
+                        <div class="fbox-content">
+
+                            <div class="feature-box fbox-effect flex-column mb-5">
+                                <ng-image-slider #nav [images]="imageObjectTypeC" [infinite]="false" [autoSlide]="1"
+                                    [animationSpeed]="0.5" [imageSize]="{width: '50%', height: 150}" slideImage="1">
+                                </ng-image-slider>
+                            </div>
+
+                            <table style="width:100%">
+                                <tr>
+                                    <td class="text-center" style="width:30%">
+                                        <img alt="image"
+                                        data-src="./assets/images/type-plan/measure-s.png"
+                                        alt="area" class="lazyload mb-3 icon-image-responsive">
+                                    </td>
+                                    <td class="text-center" style="width:30%">
+                                        <img alt="image"
+                                        data-src="./assets/images/type-plan/double-bed-s.png"
+                                        alt="bed" class="lazyload mb-3 icon-image-responsive">
+                                    </td>
+                                    <td class="text-center" style="width:30%">
+                                        <img alt="image"
+                                        data-src="./assets/images/type-plan/parking-s.png"
+                                        alt="parking" class="lazyload mb-3 icon-image-responsive">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center" style="width:30%">
+                                        <p class="h4">{{ 'TypeC.sq.m.' | translate }}</p>
+                                    </td>
+                                    <td class="text-center" style="width:30%">
+                                        <p class="h4">{{ 'TypeC.bedrooms' | translate }}</p>
+                                    </td>
+                                    <td class="text-center" style="width:30%">
+                                        <p class="h4">{{ 'TypeC.parking' | translate }}</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <p class="h5 text-center">
+                                {{ 'TypeC.detail1M' | translate }}
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div data-animate="fadeIn" data-delay="100" class="row">
+                <div class="col-lg-12 text-center">
+                    <img data-src="./assets/images/type-plan/b/b-f1.png"
+                        alt="planC1" class="lazyload responsive-img">
+
+                    <img data-src="./assets/images/type-plan/b/b-f2.png"
+                        alt="planC2" class="lazyload responsive-img">
+                </div>
+            </div>
+            <br>
+
+            <div class="row col-mb-12 ">
+                <table style="width:100%">
+                    <tr>
+                        <td class="text-center" style="width:50%">
+                            <img data-src="./assets/images/type-plan/a/icon-bathroom.png"
+                                alt="bathroomC" class="lazyload mb-3 img-bath">
+                        </td>
+                        <td class="text-center" style="width:50%">
+                            <img data-src="./assets/images/type-plan/c/icon-toilet.png"
+                                alt="toiletC" class="lazyload mb-3 img-bath">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" style="width:30%">
+                            <p class="h4">
+                                {{ 'TypeC.Bathroom' | translate }}
+                            </p>
+                        </td>
+                        <td class="text-center" style="width:30%">
+                            <p class="h4">
+                                {{ 'TypeC.Toilet' | translate }}
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="clear"></div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 pt-3 mb-5">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation" style="margin-left: 20px;">
+                            <button class="btn btn-outline-warning active mb-3" id="typeC-video-phone-tab"
+                                data-bs-toggle="pill" data-bs-target="#typeC-video-phone" type="button"
+                                role="tab" aria-controls="typeC-video-phone" aria-selected="true"
+                                style="width: 300px;height: 50px; border-radius:20px ;">
+                                <i class="icon-play-circle"></i>
+                                VIDEO
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation" style="margin-left: 20px;">
+                            <button class="btn btn-outline-warning" id="typeC-360-phone-tab"
+                                data-bs-toggle="pill" data-bs-target="#typeC-360-phone" type="button"
+                                role="tab" aria-controls="typeC-360-phone" aria-selected="false"
+                                style="width: 300px;height: 50px; border-radius:20px ;">
+                                <i class="icon-street-view"></i>
+                                {{ '360View' | translate }}
+                            </button>
+                        </li>
+                    </ul>
+                    <div data-animate="fadeIn" data-delay="100" class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="typeC-video-phone" role="tabpanel"
+                            aria-labelledby="typeC-video-phone-tab">
+                            <!-- Entry Image
+                                ============================================ -->
+                            <div class="entry-image align-wide-xl my-3">
+                                <iframe height="550" src="https://www.youtube.com/embed/GTNS8zxnvsM"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    class="iframeVideo"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <!-- .entry-image end -->
+                        </div>
+                        <div class="tab-pane fade" id="typeC-360-phone" role="tabpanel"
+                            aria-labelledby="typeC-360-phone-tab">
+                            <!-- Entry Image
+                                ============================================ -->
+                            <div class="entry-image align-wide-xl my-3">
+                                <iframe height="550" src="https://graceland360vrb.firebaseapp.com/" title="description"></iframe>
+                            </div>
+                            <!--
+                                .entry-image end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- E type C -->
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="section dark m-0">
+        <div class="mx-auto center bar-title">
+            <h2 class="mb-0 fw-light ls1 text-bar">
+                Map Location Graceland
+            </h2>
+        </div>
+    </div>
+    <div data-animate="fadeIn" data-delay="100" class="row">
+        <div class="col-12">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="1080" class="iframeMap" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Graceland%20Family%20Residences&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <a href="https://putlocker-is.org"></a><br>
+
+                    <a href="https://www.embedgooglemap.net">embed custom google map</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="section dark m-0">
+        <div class="mx-auto center bar-title" >
+            <h2 class="mb-0 fw-light ls1 text-bar">
+                PLAN VIEW GRACELAND
+            </h2>
+        </div>
+    </div>
+    <div data-animate="fadeIn" data-delay="100" class="row">
+        <div class="col-12">
+            <img data-src="./assets/images/home/plan-graceland/master-plan-view.png"
+                alt="plan graceland" width="100%"
+                class="lazyload">
+        </div>
+    </div>
+
+    <!-- END Type & Plan -->
+    </div>
+</div>

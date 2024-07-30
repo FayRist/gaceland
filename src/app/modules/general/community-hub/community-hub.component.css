@@ -1,0 +1,68 @@
+div.h1 {
+    
+    color: #8D7249;
+}
+
+.entry-meta i {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    color: #d49f43;
+}
+
+h1 {
+    color: #8d7350;
+}
+
+h2 {
+    color: #8d7350;
+}
+
+h3 {
+    color: #8d7350;
+}
+
+label {
+    color: #d49f43;
+}
+
+li {
+    color: #d49f43;
+}
+
+a {
+    color: #d49f43;
+}
+
+span {
+    color: #d49f43;
+}
+
+i {
+    color: #d49f43;
+}
+
+
+.nav.nav-pills{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+
+    div.img-responsive{
+        display: none !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 991.99px) {
+
+    div.img-mobile{
+        display: none !important;
+    }
+
+}

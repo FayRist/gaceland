@@ -1,0 +1,622 @@
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+
+            <div class="fslider" data-arrows="false" data-pagi="false" data-animation="fade" data-hover="false">
+                <div class="flexslider">
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div data-animate="fadeInUp" data-delay="150" class="col-lg-6 responsive-img">
+                    <ng-image-slider #nav [images]="imageFaci" [infinite]="true" [autoSlide]="5" [showArrow]="false"
+                        [imagePopup]="false" [animationSpeed]="0.5" [imageSize]="{width: '100%', height: 600}"
+                        slideImage="1">
+                    </ng-image-slider>
+                </div>
+                <div class="col-lg-6">
+                    <div class="col-lg-12">
+                        <div class="feature-box fbox-effect flex-column mb-3">
+                            <div *ngIf="Language === 'en'">
+                                <div class="fbox-content">
+                                    <h1 data-animate="fadeInUp" data-delay="150" class="facilities-head-rp-en"
+                                        >
+                                        {{ 'Facilities.head' | translate }} 
+                                    </h1>
+                                    <hr style="margin-bottom: 5%; color:#d39e0a ;">
+                                    <p class="text-m-t" style="color: #8d7249;">
+                                        {{ 'Facilities.detail' | translate }}
+                                    </p>
+                                </div>
+                            </div>
+                            <div *ngIf="Language === 'th'">
+                                <div class="fbox-content">
+                                    <h1 data-animate="fadeInUp" data-delay="150" class="facilities-head-rp-th">
+                                        {{ 'Facilities.head' | translate }} 
+                                    </h1>
+                                    <hr style="margin-bottom: 5%; color:#d39e0a ;">
+                                    <p class="text-m-t" style="color: #8d7249;">
+                                        {{ 'Facilities.detail' | translate }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="margin-top: 50px; color:#d39e0a ;">
+                    <div class="col-lg-12 pt-3">
+                        <div class="col-lg-12 row">
+                            <ol class="list-group pc">
+                                <li class="d-flex justify-content-between align-items-start mb-3">
+                                    <i class="icon-line-check"
+                                        style="font-size: 24px; margin-right: 20px; margin-left: 30px;"></i>
+                                    <div class="ms-2 me-auto"
+                                        style="color: #8d7249;">
+                                        {{ 'Facilities.sub.detail1.pc' | translate }}
+                                    </div>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-start mb-3">
+                                    <i class="icon-line-check"
+                                        style="font-size: 24px; margin-right: 20px; margin-left: 30px;"></i>
+                                    <div class="ms-2 me-auto"
+                                        style="color: #8d7249;">
+                                        {{ 'Facilities.sub.detail2.pc' | translate }}
+                                    </div>
+                                </li>
+                            </ol>
+                            <ol class="list-group m">
+                                <li class="d-flex justify-content-between align-items-start mb-3">
+                                    <i class="icon-line-check"
+                                        style="font-size: 24px; margin-right: 20px; margin-left: 30px;"></i>
+                                    <div class="ms-2 me-auto"
+                                        style="color: #8d7249; white-space: pre-line">
+                                        {{ 'Facilities.sub.detail1.m' | translate }}
+                                    </div>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-start mb-3">
+                                    <i class="icon-line-check"
+                                        style="font-size: 24px; margin-right: 20px; margin-left: 30px;"></i>
+                                    <div class="ms-2 me-auto"
+                                        style="color: #8d7249; white-space: pre-line">
+                                        {{ 'Facilities.sub.detail2.m' | translate }}
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                        <!-- <div class="col-lg-12 row pt-3">
+                        <div class="col-lg-1">
+                            <i class="icon-line-check" style="font-size: 24px; color: #8d7249;"></i>
+                        </div>
+                        <div class="col-lg-11">
+                            <span style="color: #8d7249;">
+                                {{ 'Facilities.sub.detail2' | translate }}
+                            </span>
+                        </div>
+                    </div> -->
+                    </div>
+                    <hr style="margin-top: 50px; color:#d39e0a ;">
+
+                    <!-- com///////// -->
+
+                    <div class="row col-mb-12 pt-3 mb-3 justify-content-center icon-responsive">
+                        <div class="col-sm-2 col-lg-3 text-center">
+                            <img data-src="./assets/images/facilities/icon/playground1.jpg"
+                                class="lazyload" style="width: 50px;">
+                            <p class="pt-2 center" style="color: #8d7249;">
+                                {{ 'Facilities.icon1' | translate }}
+                            </p>
+                        </div>
+                        <div class="col-sm-2 col-lg-3 text-center">
+                            <img data-src="./assets/images/facilities/icon/green_area1.jpg"
+                                class="lazyload" style="width: 50px;">
+                            <p class="pt-2 center" style="color: #8d7249;">
+                                {{ 'Facilities.icon3' | translate }}
+                            </p>
+                        </div>
+                        <div class="col-sm-2 col-lg-3 text-center">
+                            <img data-src="./assets/images/facilities/icon/cctv1.jpg"
+                                class="lazyload" style="width: 50px;">
+                            <p class="pt-2 center" style="color: #8d7249;">
+                                {{ 'Facilities.icon4' | translate }}
+                            </p>
+                        </div>
+                        <div class="col-sm-2 col-lg-3 text-center">
+                            <img data-src="./assets/images/facilities/icon/security1.jpg"
+                                class="lazyload" style="width: 50px;">
+                            <p class="pt-2 center" style="color: #8d7249;">
+                                {{ 'Facilities.icon5' | translate }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- end com///////// -->
+
+                    <!-- mobile///////// -->
+
+                    <div class="icon-res-mobile container pt-3 justify-content-center">
+                        <table class="" style="width: 100%;">
+                            <tr>
+                                <td class="text-center" style="width:50%">
+                                    <img data-src="./assets/images/facilities/icon/playground1.jpg"
+                                        class="lazyload" style="width: 50px;">
+                                </td>
+                                <td class="text-center" style="width:50%">
+                                    <img data-src="./assets/images/facilities/icon/green_area1.jpg"
+                                        class="lazyload" style="width: 50px;">
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="text-center" style="width:50%">
+                                    <p class="pt-2 center" style="color: #8d7249;">
+                                        {{ 'Facilities.icon1' | translate }}
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:50%">
+                                    <p class="pt-2 center" style="color: #8d7249;">
+                                        {{ 'Facilities.icon3' | translate }}
+                                    </p>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="text-center pt-3" style="width:50%">
+                                    <img data-src="./assets/images/facilities/icon/cctv1.jpg"
+                                        class="lazyload" style="width: 50px;">
+                                </td>
+                                <td class="text-center pt-3" style="width:50%">
+                                    <img data-src="./assets/images/facilities/icon/security1.jpg"
+                                        class="lazyload" style="width: 50px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center" style="width:50%">
+                                    <p class="pt-2 center" style="color: #8d7249;">
+                                        {{ 'Facilities.icon4' | translate }}
+                                    </p>
+                                </td>
+                                <td class="text-center" style="width:50%">
+                                    <p class="pt-2 center" style="color: #8d7249;">
+                                        {{ 'Facilities.icon5' | translate }}
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <!--end mobile///////// -->
+
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-12 mt-5">
+                <div class="col-lg-12">
+                    <div class="feature-box fbox-effect flex-column mb-3">
+                        <div class="fbox-content">
+                            <h1 class="facilities-comu-rp">
+                                <!-- {{ 'covid.image' | translate}} -->
+                                {{ 'Facilities.commu' | translate}}
+                            </h1>
+                            <hr style="color:#d39e0a ;">
+                        </div>
+                    </div>
+                </div>
+                <div data-animate="fadeIn" data-delay="100" class="row mb-4 text-center">
+                    <div class="col-sm-6 mb-3">
+                        <img data-src="./assets/images/facilities/5.png" alt="Image" class="lazyload" >
+                    </div>
+                    <div class="col-sm-6">
+                        <img data-src="./assets/images/facilities/4.jpg"
+                            alt="Image" class="lazyload" >
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Customer Review
+                ============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1 style="color:#8D7249;" class="text-m"> {{ 'glc.title' | translate }}</h1>
+    </div>
+
+</section><!-- #Customer Review -->
+
+<!-- Content
+        ============================================ -->
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <div class="row gutter-40 col-mb-80">
+                <!-- Post Content
+                        ============================================ -->
+                <div class="postcontent col-lg-12">
+
+                    <div class="single-post mb-0">
+
+                        <!-- Single Post
+                                ============================================ -->
+                        <div class="entry clearfix">
+                            <!-- Entry Content
+                                    ============================================ -->
+                            <div class="col-lg-12 pt-3 mb-3">
+                                <div class="col-lg-11 offset-1 row">
+                                    <ol class="list-group list-group-numbered">
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail1' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail2' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail3' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail4' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail5' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail6' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail7' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail8' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                        <li class="mb-3 text-m">
+                                            <!-- <p class="ms-2 me-auto" > -->
+                                                {{ 'GLC.detail9' | translate }}
+                                            <!-- </p> -->
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+
+                            <!-- com/////////////// -->
+
+                            <div class="container pt-5 img-responsive">
+                                <ng-image-slider #nav data-animate="fadeInUp" data-delay="200" [images]="CommunityHub"
+                                    [infinite]="false" [autoSlide]="1" [animationSpeed]="0.5"
+                                    [imageSize]="{width: '50%', height: 320}" slideImage="1">
+                                </ng-image-slider>
+                            </div>
+
+                            <!-- com/////////////// -->
+
+                            <!-- mobile/////////////// -->
+
+                            <div class="container pt-5 img-mobile">
+                                <ng-image-slider #nav data-animate="fadeInUp" data-delay="200" [images]="CommunityHub"
+                                    [infinite]="false" [autoSlide]="1" [animationSpeed]="0.5"
+                                    [imageSize]="{width: '100%', height: 200}" slideImage="1">
+                                </ng-image-slider>
+                            </div>
+
+                            <!-- mobile/////////////// -->
+
+                            <br>
+                            <br>
+                            <p class="h5" style="color:#8D7249; font-size: 15px;">**{{ 'glc.detail' | translate }}</p>
+                        </div><!-- .entry end -->
+                    </div>
+                </div><!-- .postcontent end -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- #content end -->
+
+
+
+
+<!-- Customer Review
+                ============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1 style="color:#8D7249;">Grace International School</h1>
+    </div>
+
+</section><!-- #Customer Review -->
+
+<!-- Content
+                  ============================================= -->
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <div class="row gutter-40 col-mb-80">
+                <!-- Post Content
+        ============================================ -->
+                <div class="postcontent col-lg-12">
+
+                    <div class="single-post mb-0">
+
+                        <!-- Single Post
+                ============================================ -->
+                        <div class="entry clearfix">
+                            <!-- Entry Content
+                    ============================================ -->
+                            <div class="entry-content mt-0">
+                                <div class="pc" >
+                                    <span> 
+                                        {{ 'Graceinternationalschool.detail1.pc' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="m text-center" >
+                                    <span style="white-space: pre-line">
+                                        {{ 'Graceinternationalschool.detail1.m' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="pt-3 mb-3 pc" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail2' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="pt-3 mb-3 m text-center" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail2' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 pc" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail3' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 m text-center" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail3' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 pc" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail4' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 m text-center" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail4' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 pc" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail5' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 m text-center" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail5' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 pc" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail6' | translate }}
+                                    </span>
+                                </div>
+
+                                <div class="mb-3 m text-center" >
+                                    <span >
+                                        {{ 'Graceinternationalschool.detail6' | translate }}
+                                    </span>
+                                </div>
+
+                                <!-- com/////////// -->
+
+                                <div class="container pt-5 img-responsive">
+                                    <div class="heading-block border-bottom-0">
+                                        <h3 style="color:#8D7249;">{{ 'covid.image' | translate }}</h3>
+                                    </div>
+                                    <ng-image-slider #nav data-animate="fadeInUp" data-delay="200" [images]="giSchool"
+                                        [infinite]="false" [autoSlide]="1" [animationSpeed]="0.5"
+                                        [imageSize]="{width: '50%', height: 400}" slideImage="1">
+                                    </ng-image-slider>
+                                </div>
+
+                                <!-- com/////////// -->
+                                <!-- mobile///////////// -->
+
+                                <div class="container pt-5 img-mobile">
+                                    <div class="heading-block border-bottom-0 text-center">
+                                        <h3 style="color:#8D7249;">{{ 'covid.image' | translate }}</h3>
+                                    </div>
+                                    <ng-image-slider #nav data-animate="fadeInUp" data-delay="200" [images]="giSchool"
+                                        [infinite]="false" [autoSlide]="1" [animationSpeed]="0.5"
+                                        [imageSize]="{width: '100%', height: 200}" slideImage="1">
+                                    </ng-image-slider>
+                                </div>
+
+                                <!-- mobile///////////// -->
+
+                                <br>
+                            </div>
+                        </div><!-- .entry end -->
+                    </div>
+                </div><!-- .postcontent end -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- #content end -->
+
+<!-- Page Title
+		============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix pc">
+        <h1 style="color:#8D7249;">Netatech Cradle Community Hub</h1>
+    </div>
+    <div class="container clearfix m">
+        <h1 style="color:#8D7249;">Netatech Cradle<br>Community Hub</h1>
+    </div>
+
+</section><!-- #page-title end -->
+
+<!-- Content
+============================================ -->
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <div class="row gutter-40 col-mb-80">
+                <!-- Post Content
+                ============================================ -->
+                <div class="postcontent col-lg-12">
+
+                    <div class="single-post">
+
+                        <!-- Single Post
+                        ============================================ -->
+                        <div class="entry clearfix">
+                            <!-- Entry Image
+                            ============================================ -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class=" pc">
+                                        <p class="h3 text-m" style="color:#8D7249;">
+                                            {{ 'NetatechCradle.detail1' | translate }}
+                                        </p>
+                                    </div>
+                                    <div class=" m text-center">
+                                        <p class="h3 text-m" style="color:#8D7249;">
+                                            {{ 'NetatechCradle.detail1' | translate }}
+                                        </p>
+                                    </div>
+                                    <div class="pt-2 mb-5 pc" >
+                                        <span >
+                                            {{ 'NetatechCradle.detail2.pc' | translate }}
+                                        </span>
+                                    </div>
+                                    <div class="pt-2 mb-5 m text-center" >
+                                        <span style="white-space: pre-line">
+                                            {{ 'NetatechCradle.detail2.m' | translate }}
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="pc" >
+                                        <p class="h3 text-m" style="color:#8D7249;">
+                                            {{ 'FramAndFood.detail1' | translate }}
+                                        </p>
+                                    </div>
+                                    <div class="m text-center" >
+                                        <p class="h3 text-m" style="color:#8D7249;">
+                                            {{ 'FramAndFood.detail1' | translate }}
+                                        </p>
+                                    </div>
+
+                                    <div class="pt-2 mb-5 pc" >
+                                        <span class="" style="white-space: pre-line">
+                                            {{ 'FramAndFood.detail2.pc' | translate }}
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <a data-animate="fadeInUp" data-delay="200" href="https://www.netatech.com.sg/"
+                                            target="_blank" rel="noreferrer">
+                                            <button type="button"
+                                                class="button button-border button-circle button-yellow">Go to
+                                                Netatech</button>
+                                        </a>
+                                    </div>
+
+                                    <div class="pt-2 mb-5 m text-center" >
+                                        <span class="" style="white-space: pre-line">
+                                            {{ 'FramAndFood.detail2.m' | translate }}
+                                        </span>
+                                        <br>
+                                        <br>
+                                        <a data-animate="fadeInUp" data-delay="200" href="https://www.netatech.com.sg/"
+                                            target="_blank" rel="noreferrer">
+                                            <button type="button"
+                                                class="button button-border button-circle button-yellow">Go to
+                                                Netatech</button>
+                                        </a>
+                                    </div>
+
+                                    <!-- <a
+                                        href="https://www.netatech.com.sg/"
+                                        class="button button-rounded button-large button-dark">
+                                        {{ 'leaun.more' | translate }}
+                                            Netatech
+                                    </a>-->
+
+                                    <!-- com////////////// -->
+
+                                    <div class="container img-responsive">
+                                        <div class="heading-block border-bottom-0">
+                                            <p class="h3 text-m" style="color:#8D7249;">
+                                                {{ 'covid.image' | translate }}
+                                            </p>
+                                        </div>
+                                        <ng-image-slider #nav data-animate="fadeInUp" data-delay="200"
+                                            [images]="netaTechCommunity" [infinite]="false" [autoSlide]="1"
+                                            [animationSpeed]="0.5" [imageSize]="{width: '50%', height: 400}"
+                                            slideImage="1">
+                                        </ng-image-slider>
+                                    </div>
+
+                                    <!-- com////////////// -->
+                                    <!-- mobile/////////// -->
+
+                                    <div class="container img-mobile">
+                                        <div class="heading-block border-bottom-0 text-center">
+                                            <p class="h3" style="font-size: 20px; color:#8D7249;">
+                                                {{ 'covid.image' | translate }}
+                                            </p>
+                                        </div>
+                                        <ng-image-slider #nav data-animate="fadeInUp" data-delay="200"
+                                            [images]="netaTechCommunity" [infinite]="false" [autoSlide]="1"
+                                            [animationSpeed]="0.5" [imageSize]="{width: '100%', height: 200}"
+                                            slideImage="1">
+                                        </ng-image-slider>
+                                    </div>
+
+                                    <!-- mobile/////////// -->
+
+                                </div>
+                            </div>
+
+                        </div><!-- .entry end -->
+                    </div>
+                </div><!-- .postcontent end -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- #content end -->

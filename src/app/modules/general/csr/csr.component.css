@@ -1,0 +1,46 @@
+label, p {
+    color: #d49f43;
+    font-size: 20px;
+    letter-spacing: 0px !important;
+    white-space: pre-line;
+}
+
+
+.responsive-pc{
+    display: block !important;
+}
+
+.responsive-m-phone{
+    display: none !important;
+}
+
+img.img-size{
+    width: auto;
+    height: 600px;
+}
+
+
+@media only screen and (max-width: 991.98px) {
+    .responsive-pc{
+        display: none !important;
+    }
+
+    .responsive-m-phone{
+        display: block !important;
+    }
+
+    .text-m{
+        letter-spacing: 0px !important;
+        font-size: 2.6vw;
+    }
+
+    .text-name-m{
+        letter-spacing: 0px !important;
+        font-size: 2.3vw;
+    }
+
+    img.img-size{
+        width: 250px;
+        height: auto;
+    }
+}

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 766px) {
+  .responsive-hight {
+    height: 1px;
+  }
+}
+
+.wh {
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 992px) {
+  div.faci-com{
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 991.98px) {
+  div.faci-mobile{
+    display: none;
+  }
+}

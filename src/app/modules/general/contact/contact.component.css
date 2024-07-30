@@ -1,0 +1,81 @@
+.block-contact-1,
+.block-contact-1 h1,
+.block-contact-1 h2,
+.block-contact-1 h3,
+.block-contact-1 h4,
+.block-contact-1 h5,
+.block-contact-1 h6,
+.block-contact-1 p,
+.block-contact-1 label,
+.block-contact-1 input {
+  font-family: 'Inter', sans-serif;
+}
+
+.block-contact-1 .form-control {
+  padding: 12px 2px;
+  background-color: transparent !important;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 2px;
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.block-contact-1 .form-control::-moz-placeholder {
+  color: #CCC;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.block-contact-1 .form-control:-ms-input-placeholder {
+  color: #CCC;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.block-contact-1 .form-control::-webkit-input-placeholder {
+  color: #CCC;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.block-contact-1 textarea.form-control {
+  resize: none;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.block-contact-1 label:not(.custom-control-label) {
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #777;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.block-contact-1 .custom-control-label::before,
+.block-contact-1 .custom-control-label::after {
+  top: 0.0875rem;
+}
+
+.block-contact-1 .form-control:active,
+.block-contact-1 .form-control:focus {
+  border-color: #3D1144;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #3D1144;
+  background-color: #3D1144;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem #3D114415;
+}
+
+.block-contact-1 .social-icon {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}

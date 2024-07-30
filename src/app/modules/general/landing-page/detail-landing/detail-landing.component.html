@@ -1,0 +1,66 @@
+<!-- Start detail Graceland -->
+<div class="content-wrap" style="background-color: #fffdf8; white-space: pre-line; padding-top: 5%;">
+  <div class="container clearfix">
+
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-last responsive-img">
+        <img data-src="./assets/images/home/detail-landing/bg_text-w.webp" width="610px" height="707px" alt="Placeholder Image"
+          class="rounded lazyload">
+      </div>
+      <div class="col-lg-6 responsive-width">
+        <div class="feature-box fbox-effect flex-column mb-5">
+          <div class="fbox-content container">
+            <h1 style="color: #8D7249; " class="mt-5" data-animate="fadeInUp" data-delay="200">
+              {{ 'detailLanding.title' | translate }}
+            </h1>
+            <h2 style="color: #8D7249; " data-animate="fadeInUp" data-delay="600">
+              {{ 'detailLanding.title1' | translate }}
+            </h2>
+            <div class="feature-box fbox-effect flex-column mb-5 mt-5">
+              <div class="fbox-content">
+                <div class="container clearfix slider-pc">
+                  		<div class="container clearfix">
+                        <ng-image-slider data-animate="fadeInUp" data-delay="400" #nav [images]="imageDetailLanding" [infinite]="false"
+                          [autoSlide]="1" [animationSpeed]="0.5" [imagePopup]="false" [imageSize]="{width: '50%', height: 150}" slideImage="1">
+                        </ng-image-slider>
+                      </div>
+                </div>
+                <div class="container clearfix slider-m">
+                  		<div class="container clearfix">
+                        <ng-image-slider data-animate="fadeInUp" data-delay="400" #nav [images]="imageDetailLanding" [infinite]="false"
+                          [autoSlide]="1" [animationSpeed]="0.5" [imagePopup]="false" [imageSize]="{width: '100%', height: 150}" slideImage="1">
+                        </ng-image-slider>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <p style="color: #d49f43; text-align: justify;" data-animate="fadeInUp" data-delay="1200" class="text-pc">
+              {{ 'detailLanding.detailPC' | translate }}
+            </p>
+            <p style="color: #d49f43; text-align: justify;" data-animate="fadeInUp" data-delay="1200" class="text-m text-center">
+              {{ 'detailLanding.detailM' | translate }}
+            </p>
+            <p style="color: #d49f43; text-align: justify;" data-animate="fadeInUp" data-delay="1200">
+              {{ 'detailLanding.detail1' | translate }}
+            </p>
+            <p style="color: #d49f43; text-align: justify;" data-animate="fadeInUp" data-delay="1200">
+              {{ 'detailLanding.detail2' | translate }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+                        <div class="col-lg-2">
+                            <div class="circular-text position-relative" style="margin-right: -2250px; margin-top: -270px;">
+                                <h4 id="rotated-text" class="m-0 rotating infinite" style="color:#fff; font-size: 36px;">
+                                    LIFE. & HAVE A FRUITFUL 
+                                </h4>
+                            </div>
+                        </div>
+                    </div> -->
+    <div class="clear"></div>
+
+  </div>
+</div>
+<!-- END detail Graceland -->

@@ -1,0 +1,262 @@
+<!-- Page Title
+		============================================= -->
+<section id="page-title" class="page-title-dark page-title-center p-0">
+
+	<div class="fslider" data-arrows="false" data-pagi="false" data-animation="fade" data-hover="false">
+		<div class="flexslider">
+
+			<div class="entry-image align-full mb-0">
+				<img data-animate="fadeInUp"
+					data-src="./assets/images/covid-19/05.png"
+					alt="Blog Single" class="lazyload" style="width: 100%; height: 20%;">
+			</div>
+			<div data-animate="fadeIn" data-delay="500" class="vertical-middle vertical-middle-overlay pt-5">
+				<div class="container clearfix">
+					<h1>{{ 'covid.title' | translate }}</h1>
+					<!-- <span>A Short Page Title Tagline</span> -->
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+</section>
+<!-- #page-title end -->
+
+<!-- Content
+		============================================= -->
+<section id="content">
+	<div class="content-wrap">
+		<div class="container clearfix">
+			<div data-animate="fadeInUp" class="heading-block border-bottom-0">
+				<h3 class="text-h-m" style="color: #8d7350;">{{ 'covid.staff.title' | translate }}</h3>
+			</div>
+
+			<div class="row col-mb-50 mb-0">
+				<div data-animate="fadeInUp" data-delay="200" class="col-sm-6 col-lg-4">
+					<div class="feature-box fbox-plain">
+						<div class="fbox-icon">
+							<a href="#"><i class="icon-line-check" style="color: #d49f43;"></i></a>
+						</div>
+						<div class="fbox-content">
+							<h3 class="text-op-m" style="color: #8d7350;">{{ 'covid.staff.detail1' | translate }}</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4">
+					<div data-animate="fadeInUp" data-delay="400" class="feature-box fbox-plain">
+						<div class="fbox-icon">
+							<a href="#"><i class="icon-line-check" style="color: #d49f43;"></i></a>
+						</div>
+						<div class="fbox-content">
+							<h3 class="text-op-m" style="color: #8d7350;">{{ 'covid.staff.detail2' | translate }}</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-lg-4">
+					<div data-animate="fadeInUp" data-delay="600" class="feature-box fbox-plain">
+						<div class="fbox-icon">
+							<a href="#"><i class="icon-line-check" style="color: #d49f43;"></i></a>
+						</div>
+						<div class="fbox-content">
+							<h3 class="text-op-m" style="color: #8d7350;">{{ 'covid.staff.detail3' | translate }}</h3>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<!-- com////////////////////////////// -->
+
+		<div class="container topmargin-lg clearfix img-responsive">
+			<div data-animate="fadeInUp" data-delay="200" class="heading-block border-bottom-0">
+				<h3 style="color: #8d7350;">{{ 'covid.image' | translate }}</h3>
+			</div>
+			<ng-image-slider data-animate="fadeInUp" data-delay="400" #nav [images]="imageObject" [infinite]="false"
+				[autoSlide]="1" [animationSpeed]="0.5" [imageSize]="{width: 380, height: 250}" slideImage="1">
+			</ng-image-slider>
+		</div>
+
+		<!-- end com////////////////////////////// -->
+
+		<!-- mobile////////////////////////////// -->
+
+		<div class="container topmargin-lg clearfix img-mobile">
+			<div data-animate="fadeInUp" data-delay="200" class="heading-block border-bottom-0">
+				<h3 style="color: #8d7350;">{{ 'covid.image' | translate }}</h3>
+			</div>
+			<ng-image-slider data-animate="fadeInUp" data-delay="400" #nav [images]="imageObject" [infinite]="false"
+				[autoSlide]="1" [animationSpeed]="0.5" [imageSize]="{width: '100%', height: 200}" slideImage="1">
+			</ng-image-slider>
+		</div>
+
+		<!-- end mobile////////////////////////////// -->
+
+		<div class="container clearfix">
+<!--  com////////////////////////////// -->
+			<div class="row justify-content-between pt-5">
+				<div data-animate="fadeInUp" data-delay="200" class="col-lg-6 pc" data-lightbox="gallery">
+					<div class="heading-block border-bottom-0 bottommargin-sm">
+						<h3 class="nott ls0" style="color: #8d7350;">{{ 'covid.subtitle' | translate }} </h3>
+					</div>
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							1.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;">{{ 'covid.detail1.pc' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							2.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;">{{ 'covid.detail2.pc' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							3.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;">{{ 'covid.detail3.pc' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							4.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;">{{ 'covid.detail4.pc' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							5.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;">{{ 'covid.detail5.pc' | translate }}
+							</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							6.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;">
+								{{ 'covid.detail6.pc' | translate }}
+
+							</span>
+						</div>
+					</div>
+
+
+				</div>
+<!-- end com////////////////////////////// -->
+
+<!-- end mobile////////////////////////////// -->
+
+				<div data-animate="fadeInUp" data-delay="200" class="col-lg-6 m" data-lightbox="gallery">
+					<div class="heading-block border-bottom-0 bottommargin-sm">
+						<h3 class="nott ls0" style="color: #8d7350;">{{ 'covid.subtitle' | translate }} </h3>
+					</div>
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							1.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;white-space: pre-line">{{ 'covid.detail1.m' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							2.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;">{{ 'covid.detail2.m' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							3.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;white-space: pre-line">{{ 'covid.detail3.m' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							4.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;white-space: pre-line">{{ 'covid.detail4.m' | translate }}</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							5.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;white-space: pre-line">{{ 'covid.detail5.m' | translate }}
+							</span>
+						</div>
+					</div>
+
+					<div class="feature-box fbox-plain fbox-sm mb-4">
+						<div class="fbox-icon" style="color: #d49f43;" data-animate="fadeIn">
+							6.
+						</div>
+						<div class="fbox-content">
+							<span class="" style="color: #d49f43;white-space: pre-line">
+								{{ 'covid.detail6.m' | translate }}
+
+							</span>
+						</div>
+					</div>
+<!-- end mobile////////////////////////////// -->
+
+				</div>
+				<div class="col-lg-5">
+					<div class="opening-table">
+						<div class="container image-res">
+							<div data-animate="fadeInUp" data-delay="100" class="heading-block border-bottom-0">
+								<h3 style="color: #8d7350;">{{ 'covid.staff.image' | translate }}</h3>
+							</div>
+							<ng-image-slider #nav data-animate="fadeInUp" data-delay="100" [images]="imageObjectCovid" [infinite]="false" [autoSlide]="1"
+								[animationSpeed]="0.5" [imageSize]="{width: '100%', height: 590}" slideImage="1">
+							</ng-image-slider>
+						</div>
+
+						<div class="container image-mb">
+							<div data-animate="fadeInUp" data-delay="100" class="heading-block border-bottom-0">
+								<h3 style="color: #8d7350;">{{ 'covid.staff.image' | translate }}</h3>
+							</div>
+							<ng-image-slider #nav data-animate="fadeInUp" data-delay="100" [images]="imageObjectCovid" [infinite]="false" [autoSlide]="1"
+								[animationSpeed]="0.5" [imageSize]="{width: '100%', height: 300}" slideImage="1">
+							</ng-image-slider>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- #content end -->
